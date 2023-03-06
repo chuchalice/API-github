@@ -1,0 +1,16 @@
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+.close-btn {
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  align-self: flex-start;
+  background-color: inherit;
+}
+.close-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  margin-top: 40px;
+  border: 1px solid #ffffff;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px;
+  gap: 30px;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgba(86, 95, 211, 0.678);
+}

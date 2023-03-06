@@ -1,0 +1,8 @@
+.users {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  min-height: 210px;
+  margin: 0;
+  background-color: white;
+  padding-left: 0;
+}

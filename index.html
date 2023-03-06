@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./pages/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="window">
+      <div class="wrapper">
+        <div class="search-wrap">
+          <h1 class="title">GitHub Repository Search</h1>
+          <div class="search-line">
+            <div class="dropdown-wrapper">
+              <input
+                type="text"
+                class="search-bar"
+                placeholder="Name of repository..."
+              />
+              <div class="dropdown">
+                <ul class="droplist"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="users-wrapper">
+          <ul class="users"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./pages/script.js" type="module"></script>
+  </body>
+</html>

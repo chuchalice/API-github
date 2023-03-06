@@ -1,0 +1,8 @@
+.dropdown {
+  /* border: 1px solid #ffffff; */
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
