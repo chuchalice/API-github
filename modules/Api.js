@@ -22,6 +22,7 @@ export class Api {
           }
         })
         .then((res) => {
+          console.log(res);
           let dataArr = res.items.slice(0, 5);
 
           dataArr.forEach((user) => this.card.createUser(user));

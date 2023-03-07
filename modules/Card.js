@@ -22,12 +22,18 @@ export class Card {
     const ownerName = this.createElement("p", "droplist__owner");
     ownerName.textContent = `Owner: ${userData.owner.login}`;
     const starsCount = this.createElement("p", "droplist__stars");
-    starsCount.textContent = `Stars: ${userData.id}`;
+    starsCount.textContent = `Stars: ${userData.stargazers_count}`;
     wrappDiv.append(repName);
     wrappDiv.append(ownerName);
     wrappDiv.append(starsCount);
     const closeBtn = this.createElement("button", "close-btn");
     closeBtn.textContent = "X";
+
+    closeBtn.addEventListener("click", function (e) {
+      const target = e.target.closest("li");
+      if (!target) return;
+      usersMenu.removeChild(target);
+    });
 
     dropList.addEventListener("click", function (e) {
       const target = e.target.closest("li");
